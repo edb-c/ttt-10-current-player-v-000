@@ -1,5 +1,5 @@
-//eCofresi
-//board = ["X", "O", "X", "X", "O", "X", "O", "O", " "]
+#eCofresi
+#board = ["X", "O", "X", "X", "O", "X", "O", "O", " "]
 
 def turn_count(board)
   counter = 0
