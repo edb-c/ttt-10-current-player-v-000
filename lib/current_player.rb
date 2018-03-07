@@ -14,7 +14,8 @@ end
 
 #Using ternary operator
 def current_player(board)
-  turn_count(board) % 2 == 0 ? "X" : "O"
+#  turn_count(board) % 2 == 0 ? "X" : "O"
+turn_count(board).even? == 0 ? "X" : "O"
 end
 
 #current_player(board)
